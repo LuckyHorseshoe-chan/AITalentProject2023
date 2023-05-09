@@ -12,12 +12,4 @@
 `cd AITalentProject2023/frontend`  
 `npm run start`  
 Далее заходим на http://localhost:3000/ - страницу с приложением. Можно также зайти на http://localhost:8000/docs, чтобы проверить работу API.  
-Примеры работы приложения:  
-Изначальный вид  
-Введём последовательность ATGGGCCTCACCGTGTCCGCGCTCTTTTCGCGGATCTTCGGGAAGAAGCAGATGCGGATTCTCATGGTTGGCTTGGATGCGGCTGGCAAGACCACAATCCTGTACAAACTGAAGTT в строку для предсказания консервативных участков   
-`![alt text] (https://imgur.com/KLkIn2g)  `
-Введём последовательность GCCGTGGCGGTGCGAGAATCCTGGCAAGCAGAAGAAAAAACTTGTGACCTGGTGGGAGA в строку для предсказания консервативных участков
-Введём последовательность GCCGTGGCGGTGCGAGAATC в строку для генерации консервативной последовательности, нажмём "Добавить"
-Введём последовательность GCCGTGGCGGTGCGAGAATC в строку для генерации консервативной последовательности, нажмём "Изменить"
-Введём последовательность ATGGGCCTCACCGTGTCCGC в строку для генерации консервативной последовательности, зададим длину 15, нажмём "Добавить"
-Введём последовательность ATGGGCCTCACCGTGTCCGC в строку для генерации консервативной последовательности, зададим позиции 5, 10, 15, нажмём "Изменить"
+Примеры работы приложения можно посмотреть в файле Use_Case.pdf
