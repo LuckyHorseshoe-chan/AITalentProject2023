@@ -12,4 +12,9 @@
 `cd AITalentProject2023/frontend`  
 `npm run start`  
 Далее заходим на http://localhost:3000/ - страницу с приложением. Можно также зайти на http://localhost:8000/docs, чтобы проверить работу API.  
-Примеры работы приложения можно посмотреть в файле Use_Case.pdf
+Примеры работы приложения можно посмотреть в файле Use_Case.pdf  
+Последовательности из примеров для ввода:  
+ATGGGCCTCACCGTGTCCGCGCTCTTTTCGCGGATCTTCGGGAAGAAGCAGATGCGGATTCTCATGGTTGGCTTGGATGCGGCTGGCAAGACCACAATCCTGTACAAACTGAAGTT  
+GCCGTGGCGGTGCGAGAATCCTGGCAAGCAGAAGAAAAAACTTGTGACCTGGTGGGAGA  
+GCCGTGGCGGTGCGAGAATC  
+ATGGGCCTCACCGTGTCCGC  
