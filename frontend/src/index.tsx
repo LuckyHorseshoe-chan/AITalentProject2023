@@ -4,7 +4,6 @@ import { ChakraProvider } from "@chakra-ui/react";
 
 import Prediction from "./components/Prediction";
 import Generation from "./components/Generation";
-import Visualization from "./components/Visualization";
 
 function App() {
   return (
