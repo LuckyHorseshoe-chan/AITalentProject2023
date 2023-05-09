@@ -15,7 +15,7 @@
 Примеры работы приложения:  
 Изначальный вид  
 Введём последовательность ATGGGCCTCACCGTGTCCGCGCTCTTTTCGCGGATCTTCGGGAAGAAGCAGATGCGGATTCTCATGGTTGGCTTGGATGCGGCTGGCAAGACCACAATCCTGTACAAACTGAAGTT в строку для предсказания консервативных участков   
-![] (https://imgur.com/KLkIn2g)  
+`![alt text] (https://imgur.com/KLkIn2g)  `
 Введём последовательность GCCGTGGCGGTGCGAGAATCCTGGCAAGCAGAAGAAAAAACTTGTGACCTGGTGGGAGA в строку для предсказания консервативных участков
 Введём последовательность GCCGTGGCGGTGCGAGAATC в строку для генерации консервативной последовательности, нажмём "Добавить"
 Введём последовательность GCCGTGGCGGTGCGAGAATC в строку для генерации консервативной последовательности, нажмём "Изменить"
