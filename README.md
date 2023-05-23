@@ -3,7 +3,7 @@
 - Обучить генератор консервативной последовательности  
 # Решение
 Трансформеры хорошо показали себя в задачах nlp, а huggingface предоставляет удобный интерфейс для их использования и подробную документацию, поэтому для 1 пункта задания были проведены эксперименты со следующими моделями: DistilBert, Bert, Bloom, Bart, Canine и Esm.  
-![alt text](https://github.com/LuckyHorseshoe-chan/AITalentProject2023/blob/main/imgs/time_comparison.jpg)  
+![alt text](https://github.com/LuckyHorseshoe-chan/AITalentProject2023/blob/main/imgs/time_comparison2.jpg)  
 ![alt text](https://github.com/LuckyHorseshoe-chan/AITalentProject2023/blob/main/imgs/accuracy_comparison.jpg)  
 Сравнение по точности и нормализованным значениям времени (отношение к максимальному значению)  
 ![alt text](https://github.com/LuckyHorseshoe-chan/AITalentProject2023/blob/main/imgs/comparison.jpg)  
