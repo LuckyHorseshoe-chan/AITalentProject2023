@@ -6,15 +6,19 @@ function Generation() {
     const [generatedSeq, setGeneratedSeq] = useState('')
     const [leng, setLen] = useState('10')
     const [positions, setPositions] = useState('')
+    // если пользователь изменяет поле ввода последовательности (1й элемент Input), задать ему введённое значение
     function writeSequence(e: any) {
         setInputSeq(e.target.value)
     }
+    // если пользователь изменяет поле ввода длины (2й элемент Input), задать ему введённое значение
     function writeLen(e: any) {
         setLen(e.target.value)
     }
+    // если пользователь изменяет поле ввода позиций (3й элемент Input), задать ему введённое значение
     function writePositions(e: any) {
         setPositions(e.target.value)
     }
+    // отправить запрос на сервер при нажатии на кнопку "Добавить"
     const addSeq = (e: any) => {
         const fetchAdd = async() => {
             const response = await fetch("http://localhost:8000/generation?seq=" + inputSeq + "&mode=add&leng=" + leng + "&pos=" + positions, {
@@ -26,6 +30,7 @@ function Generation() {
         }
         fetchAdd()
     }
+    // отправить запрос на сервер при нажатии на кнопку "Изменить"
     const changeSeq = (e: any) => {
         const fetchChange = async() => {
             const response = await fetch("http://localhost:8000/generation?seq=" + inputSeq + "&mode=change&leng=" + leng + "&pos=" + positions, {
